@@ -61,7 +61,7 @@
 
           <div class="text-center">
             <span class="text-white">vendido por </span> <img src="img\loja_exemplo_logo_fundo.jpg" width="48px"><a
-              href=""> GamePlay</a>
+              href="gameplay_loja.php"> GamePlay</a>
           </div>
 
           <div class="card-text text-white">Compre agora esse controle foda pra caralho do Nintendo Switch</div>
