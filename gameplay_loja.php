@@ -1,28 +1,12 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Controle Com Fio Powera Zelda Breath Of The Wild Para Nintendo Switch na Taverna.com</title>
-  <!-- Estilo Bootstrap -->
-  <link async defer rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- Estilo FontAweomse -->
-  <link async defer rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <!-- Estilo e Favicon -->
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="img/favicon_taverna_48x48.png" sizes="96x96" type="image/png">
-</head>
+<?php require_once("inc/head.php"); ?>
 
 <body>
+  <?php require_once("inc\header.php")?>
   <main class="container">
 
     <div class="row topoLoja" style="margin-bottom: 10px;">
 
-      <img src="img\loja_exemplo_logo_fundo.jpg" class="img-fluid rounded col-4 " alt="">
+      <img src="assets\img\loja_exemplo_logo_fundo.jpg" class="img-fluid rounded col-4 " alt="">
 
       <div class="card col cardLojaNota" style="height: 200px;">
         <div class="card-body text-center">
@@ -164,7 +148,7 @@
 
         <div class="col-md-3">
           <div class="product-top">
-            <img src="img\nintendo_switch.jpg" class="imgProduto rounded">
+            <img src="assets\img\nintendo_switch.jpg" class="imgProduto rounded">
             <div class="overlay">
               <button type="button" class="btn btn-light" title="Compartilhar"><i
                   class="fas fa-share-alt btnOverlay"></i></button>
@@ -188,7 +172,7 @@
 
         <div class="col-md-3">
           <div class="product-top">
-            <img src="img\pes_2019.jpg" class="imgProduto rounded">
+            <img src="assets\img\pes_2019.jpg" class="imgProduto rounded">
             <div class="overlay">
               <button type="button" class="btn btn-light" title="Compartilhar"><i
                   class="fas fa-share-alt btnOverlay"></i></button>
@@ -212,7 +196,7 @@
 
         <div class="col-md-3">
           <div class="product-top">
-            <img src="img\mortal-kombat-11.jpg" class="imgProduto rounded">
+            <img src="assets\img\mortal-kombat-11.jpg" class="imgProduto rounded">
             <div class="overlay">
               <button type="button" class="btn btn-light" title="Compartilhar"><i
                   class="fas fa-share-alt btnOverlay"></i></button>
@@ -236,7 +220,7 @@
 
         <div class="col-md-3">
           <div class="product-top">
-            <img src="img\resident_evill.jpg" class="imgProduto rounded">
+            <img src="assets\img\resident_evill.jpg" class="imgProduto rounded">
             <div class="overlay">
               <button type="button" class="btn btn-light" title="Compartilhar"><i
                   class="fas fa-share-alt btnOverlay"></i></button>
@@ -266,7 +250,7 @@
 
         <div class="col-md-3">
           <div class="product-top">
-            <img src="img\deadpool_boneco.jpg" class="imgProduto rounded">
+            <img src="assets\img\deadpool_boneco.jpg" class="imgProduto rounded">
             <div class="overlay">
               <button type="button" class="btn btn-light" title="Compartilhar"><i
                   class="fas fa-share-alt btnOverlay"></i></button>
@@ -290,7 +274,7 @@
 
         <div class="col-md-3">
           <div class="product-top">
-            <img src="img\drestranho_boneco.jpg" class="imgProduto rounded">
+            <img src="assets\img\drestranho_boneco.jpg" class="imgProduto rounded">
             <div class="overlay">
               <button type="button" class="btn btn-light" title="Compartilhar"><i
                   class="fas fa-share-alt btnOverlay"></i></button>
@@ -314,7 +298,7 @@
 
         <div class="col-md-3">
           <div class="product-top">
-            <img src="img\darthvader_boneco.jpg" class="imgProduto rounded">
+            <img src="assets\img\darthvader_boneco.jpg" class="imgProduto rounded">
             <div class="overlay">
               <button type="button" class="btn btn-light" title="Compartilhar"><i
                   class="fas fa-share-alt btnOverlay"></i></button>
@@ -338,7 +322,7 @@
 
         <div class="col-md-3">
           <div class="product-top">
-            <img src="img\robocop_boneco.jpg" class="imgProduto rounded">
+            <img src="assets\img\robocop_boneco.jpg" class="imgProduto rounded">
             <div class="overlay">
               <button type="button" class="btn btn-light" title="Compartilhar"><i
                   class="fas fa-share-alt btnOverlay"></i></button>
@@ -363,15 +347,7 @@
     </div>
   </main>
 
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
+<?php require_once("inc/footer.php");?>
 </body>
 
 </html>
