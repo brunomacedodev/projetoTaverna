@@ -22,7 +22,7 @@ body {
 }
 
 .navPrincipalTop {
-    background-color: #1c1c1c;
+    background-color: #100E11;
     display: flex;
     justify-content: center;
     padding-top: 20px;
@@ -123,3 +123,10 @@ a:hover {
     justify-content: space-around;
 }
 
+footer {
+    background-color: #100E11;
+}
+
+footer span .fab {
+    font-size: 20px;
+}
