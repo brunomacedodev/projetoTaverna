@@ -15,6 +15,12 @@ body {
     background-color: #100E11;
 }
 
+/* PESQUISA DA NAVBAR */
+
+::placeholder {
+    color: #ffff;
+}
+
 .navPrincipalTop {
     background-color: #1c1c1c;
     display: flex;
@@ -76,8 +82,7 @@ a:hover {
 .iconsNav {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    font-size: 30px;
+    justify-content: space-around;
 }
 
 .dropMenuBg {
@@ -117,3 +122,4 @@ a:hover {
     flex-direction: row;
     justify-content: space-around;
 }
+
