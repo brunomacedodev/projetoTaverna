@@ -140,3 +140,18 @@ footer {
 footer span .fab {
     font-size: 20px;
 }
+
+.barraChamada {
+    border: 2px solid transparent;
+    border-radius: 7px;
+    background-color: rgb(95, 91, 91);
+}
+
+.barraChamada h3 {
+    font-weight: bold;
+    color: #100E11;
+}
+
+.barraChamada .fas {
+    font-size: 25px;
+}
