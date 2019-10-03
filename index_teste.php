@@ -4,60 +4,65 @@
     <?php include_once('utils\produtosCards.php'); ?>
 
     <main class="container-fluid">
+        <div class="sticky-top">
+            <?php include_once('utils\header.php');?>
 
-        <?php include_once('utils\header.php');?>
-
-        <!-- CAROUSEL DE DESTAQUES -->
-
-        <div id="carouselHome" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselHome" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselHome" data-slide-to="1"></li>
-                <li data-target="#carouselHome" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="assets\img\banner_cod.jpg" alt="Primeiro Slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="assets\img\banner_presentes.jpg" alt="Segundo Slide">
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="assets\img\banner_moda.jpg" alt="Terceiro Slide">
-                </div>
-            </div>
-            <div class="setasCarousel">
-                <a class="carousel-control-prev" href="#carouselHome" role="button" data-slide="prev">
-                    <i class="fas fa-caret-left"></i>
-                    <span class="sr-only">Anterior</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselHome" role="button" data-slide="next">
-                        <i class="fas fa-caret-right"></i>
-                    <span class="sr-only">Próximo</span>
-                </a>
-            </div>
         </div>
 
-        <section class="row p-2 mt-3 ">
-            <div class="col-12 d-flex barraChamada">
-                <h3 class="p-0 m-0"><i class="fas fa-grin-alt"></i> .ofertas épicas!</h3>
+
+        <!-- CAROUSEL DE DESTAQUES -->
+        <div class="container-fluid">
+            <div id="carouselHome" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselHome" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselHome" data-slide-to="1"></li>
+                    <li data-target="#carouselHome" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="assets\img\banner_cod.jpg" alt="Primeiro Slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets\img\banner_presentes.jpg" alt="Segundo Slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets\img\banner_moda.jpg" alt="Terceiro Slide">
+                    </div>
+                </div>
+                <div class="setasCarousel">
+                    <a class="carousel-control-prev" href="#carouselHome" role="button" data-slide="prev">
+                        <i class="fas fa-caret-left"></i>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselHome" role="button" data-slide="next">
+                            <i class="fas fa-caret-right"></i>
+                        <span class="sr-only">Próximo</span>
+                    </a>
+                </div>
             </div>
-        </section>
+    
+            <section class="row p-2 mt-3 ">
+                <div class="col-12 d-flex barraChamada">
+                    <h3 class="p-0 m-0"><i class="fas fa-grin-alt"></i> .ofertas épicas!</h3>
+                </div>
+            </section>
+        </div>
+
 
         <!-- CARDS PROMOCIONAIS -->
 
-        <section class="container-fluid my-3 p-0">
+        <section class="container my-3 p-0">
 
             <div class="row m-0 px-0 py-2" style="width: 100%">
                     
                 <?php foreach ($produtosCard as $nomeProduto => $infosProduto) { ?>
-                    <div class="col border border-white rounded mx-3 p-3">
+                    <div class="col-lg-3 col-sm-6 m-0 p-3">
                         <img src="<?php echo $infosProduto[0]; ?>" class="card-img-top" alt="<?php echo $infosProduto[1]; ?>">
-                        <div class="row text-center mt-2 px-2">
-                            <h5 class="text-white"><?php echo $infosProduto[1]; ?></h5>
+                        <div class="row justify-content-center mt-2 px-2">
+                            <h5 class=" text-white"><?php echo $infosProduto[1]; ?></h5>
                         </div>
-                        <div class="row p-0 mt-2 justify-content-center d-flex flex-nowrap">
-                            <ul class="d-flex flex-row text-white col">
+                        <div class="row p-0 mt-2 ">
+                            <ul class="d-flex flex-row justify-content-center text-white col">
                                 <li><i class="fas fa-star"></i></li>
                                 <li><i class="fas fa-star"></i></li>
                                 <li><i class="fas fa-star"></i></li>
@@ -67,7 +72,7 @@
                                 <small class="text-white">taverna indica</small></li>
                             </ul>
                         </div>
-                        <div class="row p-0 mt-2 justify-content-center">
+                        <div class="row p-0 mt-2 justify-content-around">
                             <p class="text-white"><strong><?php echo $infosProduto[3]; ?> ofertas a partir de</strong></p>
                         </div>
                         <div class="row justify-content-center">
@@ -83,13 +88,13 @@
 
         <section class="row p-2 mt-3 ">
             <div class="col-12 d-flex barraChamada">
-                <h3 class="p-0 m-0"><i class="fas fa-grin-alt"></i> .fique por dentro!</h3>
+                <h3 class="p-0 m-0"><i class="fas fa-envelope-open"></i> .fique por dentro!</h3>
             </div>
         </section>
 
 
 
-        <!-- FORMULÁRIO NEWSLETTER -->
+<!-- FORMULÁRIO NEWSLETTER -->
 <div class="container-fluid my-3">
     <div class="row text-center my-3">
         <h2 class="text-white col-12">Não deixe ninguém de fora de promoções e novidades imperdíveis!</h2>
@@ -103,7 +108,9 @@
             <div class="form-group">
                 <input type="email" class="form-control form-control-lg bg-transparent text-white" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite o E-mail de seu amigo">
             </div>
-            <button type="submit" class="btn btn-lg btnPadrao col-5">Cadastrar</button>
+            <div class="row justify-content-center">
+                <button type="submit" class="btn btn-lg btnPadrao ">Cadastrar!</button>
+            </div>
         </form>
     </div>
 </div>

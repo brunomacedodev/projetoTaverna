@@ -1,4 +1,4 @@
-<footer class="d-flex row justify-content-center mt-3">
+<footer class="d-flex row justify-content-center mt-3 border-top">
 
     <div class="row m-0">
         <ul class="linksFooter p-0 m-0 d-flex flex-wrap">
