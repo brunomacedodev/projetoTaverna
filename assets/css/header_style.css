@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -8,7 +10,10 @@
     list-style: none;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+a {
+    color: #ffff;
+    text-decoration: none;
+}
 
 body {
     background-color: #100E11;
@@ -101,7 +106,7 @@ a:hover {
     border: 1px solid #ffff;
 }
 
-.dropMenuBg ul li {
+.dropMenuBg ul li a {
     color: #ffff;
     text-decoration: none;
 }
@@ -158,8 +163,22 @@ footer span .fab {
     font-size: 25px;
 }
 
-/* @media (max-width: 576px) {
-    * {
-        font-size: 0.5em;
-    }
-} */
+/* MENU DE LOJA */
+
+.menuLoja span {
+    font-size: 7rem;
+}
+
+.menuLoja .fas {
+    color: #ffff;
+    font-size: 1.5rem;
+}
+
+.menuLoja .far {
+    color: #ffff;
+    font-size: 1.5rem;
+}
+
+.menuLoja a {
+    text-decoration: none;
+}

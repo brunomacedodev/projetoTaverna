@@ -1,3 +1,4 @@
+<html>
 <?php include_once('utils\head.php');?>
 
 <body>
@@ -11,7 +12,7 @@
 
 
         <!-- CAROUSEL DE DESTAQUES -->
-        <div class="container-fluid">
+        <div class="container-fluid p-0">
             <div id="carouselHome" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                     <li data-target="#carouselHome" data-slide-to="0" class="active"></li>
@@ -41,12 +42,16 @@
                 </div>
             </div>
     
+        </div>
+
+        <div class="container">
             <section class="row p-2 mt-3 ">
                 <div class="col-12 d-flex barraChamada">
                     <h3 class="p-0 m-0"><i class="fas fa-grin-alt"></i> .ofertas épicas!</h3>
                 </div>
             </section>
         </div>
+
 
 
         <!-- CARDS PROMOCIONAIS -->
@@ -86,11 +91,14 @@
                 
         </section>
 
-        <section class="row p-2 mt-3 ">
-            <div class="col-12 d-flex barraChamada">
-                <h3 class="p-0 m-0"><i class="fas fa-envelope-open"></i> .fique por dentro!</h3>
-            </div>
-        </section>
+        <div class="container">
+            <section class="row p-2 mt-3 ">
+                <div class="col-12 d-flex barraChamada">
+                    <h3 class="p-0 m-0"><i class="fas fa-envelope-open"></i> .fique por dentro!</h3>
+                </div>
+            </section>
+        </div>
+
 
 
 

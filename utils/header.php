@@ -15,7 +15,7 @@
                     <div class="col-5 p-0">
                         <div class="input-group">
                             <input type="text" class="form-control bg-transparent text-white"
-                                placeholder="Busque por produtos, marcas e muito mais...">
+                                placeholder="Busque por produtos, lojas e muito mais...">
                             <div class="input-group-append">
                                 <button type="submit" class="btn btnPadrao border-0"><i
                                         class="fas fa-search"></i></button>
