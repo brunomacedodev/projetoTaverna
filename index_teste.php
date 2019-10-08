@@ -1,4 +1,5 @@
 <html>
+<?php $pageTitle = "Taverna";?>
 <?php include_once('utils\head.php');?>
 
 <body>
@@ -44,7 +45,7 @@
     
         </div>
 
-        <div class="container">
+        <div class="container-fluid">
             <section class="row p-2 mt-3 ">
                 <div class="col-12 d-flex barraChamada">
                     <h3 class="p-0 m-0"><i class="fas fa-grin-alt"></i> .ofertas épicas!</h3>
@@ -91,7 +92,7 @@
                 
         </section>
 
-        <div class="container">
+        <div class="container-fluid">
             <section class="row p-2 mt-3 ">
                 <div class="col-12 d-flex barraChamada">
                     <h3 class="p-0 m-0"><i class="fas fa-envelope-open"></i> .fique por dentro!</h3>

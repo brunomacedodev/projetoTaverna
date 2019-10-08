@@ -1,24 +1,35 @@
-<footer class="d-flex row justify-content-center mt-3 border-top">
+<footer class="d-flex row  mt-3 border-top">
+    <div class="container-fluid justify-content-center mt-2 ">
+        <div class="row">        
+            <ul class="col nav flex-row justify-content-center p-0">
+                <li class="nav-item mx-4"><button class="btn btnPadrao border-0 text-white efeitoLink">.sobre nós</button></li>
+                <li class="nav-item mx-4"><button class="btn btnPadrao border-0 text-white efeitoLink">.dúvidas</button></li>
+                <li class="nav-item mx-4"><button class="btn btnPadrao border-0 text-white efeitoLink">.central de atendimento</button></li>
+                <li class="nav-item mx-4"><button class="btn btnPadrao border-0 text-white efeitoLink">.venda com a gente</button></li>
+            </ul>
+        </div>
+        <div class="row p-2 justify-content-center">
+            <div class="col-md-3 col">
+                <img src="assets\img\taverna_com_logo.svg" class="img-fluid p-2" title="Taverna.com">
 
-    <div class="row m-0">
-        <ul class="linksFooter p-0 m-0 d-flex flex-wrap">
-            <li class="efeitoLink mx-3">.sobre nós</li>
-            <li class="efeitoLink mx-3">.dúvidas</li>
-            <li class="efeitoLink mx-3">.central de atendimento</li>
-            <li class="efeitoLink mx-3">.venda com a gente</li>
-        </ul>
+            </div>
+
+            <div class="col">
+                <div class="row">        
+                    <ul class="col nav flex-row flex-nowrap justify-content-end">
+                        <li class="nav-item mx-2"><button class="btn btnPadrao border-0 text-white efeitoLink" title="Instagram"><i class="fab fa-instagram"></i></button></li>
+                        <li class="nav-item mx-2"><button class="btn btnPadrao border-0 text-white efeitoLink" title="Facebook"><i class="fab fa-facebook-square"></i></button></li>
+                        <li class="nav-item mx-2"><button class="btn btnPadrao border-0 text-white efeitoLink" title="Youtube"><i class="fab fa-youtube"></i></button></li>
+                        <li class="nav-item mx-2"><button class="btn btnPadrao border-0 text-white efeitoLink" title="Twitter"><i class="fab fa-twitter-square"></i></button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            <div class="col">
+                <p class="text-muted text-center">
+                    Taverna - Companhia Digital / CNPJ 12.618.039/0001-56 / Inscrição Estadual 988.410.420.120 / Endereço Travessa Cajamarca, 442 - São Paulo, SP - 03378-052
+                </p>
+            </div>    
     </div>
 
-    <div class="row p-3" style="width: 100%">
-        <div class="col-4 p-0 text-center">
-            <img src="assets\img\taverna_com_logo.svg" class="p-3" alt="" title="Taverna.com" style="width: 50%">
-        </div>
-        <div class="col-4"></div>
-        <div class="col-4 d-flex align-self-center justify-content-center">
-            <span class="btn btnPadrao border-0 p-0 mx-3" title="Youtube"><i class="fab fa-youtube"></i></span>
-            <span class="btn btnPadrao border-0 p-0 mx-3" title="Facebook"><i class="fab fa-facebook"></i></span>
-            <span class="btn btnPadrao border-0 p-0 mx-3" title="Instagram"><i class="fab fa-instagram"></i></span>
-            <span class="btn btnPadrao border-0 p-0 mx-3" title="Twitter"><i class="fab fa-twitter-square"></i></span>
-        </div>
-    </div>
 </footer>

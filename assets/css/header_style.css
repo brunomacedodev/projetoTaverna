@@ -165,20 +165,83 @@ footer span .fab {
 
 /* MENU DE LOJA */
 
+.menuLoja #nota {
+    font-size: 10vw;
+}
+
 .menuLoja span {
-    font-size: 7rem;
+    text-align: center;
+    vertical-align: middle;
+    line-height: normal;
 }
 
-.menuLoja .fas {
+.menuLoja ul li i {
+    font-size: 2vw;
+}
+.MenuLoja #avaliacoes {
+    font-size: 2vw;
+}
+
+/* PRODUTO DESTAQUE HOME LOJA */
+
+.produtosHomeLoja div h6 {
+    font-weight: bold;
+    text-align: center;    
+    font-size: 1em;
+}
+
+.produtosHomeLoja ul li i {
+    font-size: 1em;
+}
+
+.produtosHomeLoja span {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.produtosHomeLoja article {
+    font-size: 12px;
+}
+
+
+/* FOOTER */
+
+footer ul li i {
+    font-size: 20px;    
+}
+
+footer p {
+    font-size: 10px;    
+}
+
+
+/* ICONES COMPARTILHAR/CARRINHO/WHISHLIST */
+.overlayProduto:hover img {
+    opacity: .5;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+.overlayProduto:hover #btnOverlayProduto {
+    display: flex;
+    flex-direction: column;
+    top: 5%;
+    left:5%;
+    background-color: rgba(16, 14, 17, .3)
+}
+
+.overlayProduto #btnOverlayProduto {
+    position: absolute;
+    display: none;
+}
+
+
+/* MODAL */
+
+.modal-header i {
+    font-size: 20px;
     color: #ffff;
-    font-size: 1.5rem;
-}
-
-.menuLoja .far {
-    color: #ffff;
-    font-size: 1.5rem;
-}
-
-.menuLoja a {
-    text-decoration: none;
 }
