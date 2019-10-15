@@ -81,88 +81,107 @@
                                     <div class="modal-body">
                                         <ul class="nav nav-tabs">
                                             <li class="nav-item">
-                                                <a href="" class="nav-link active" href="#">Cartão de crédito</a>
+                                                <a href="#parcelasCartao" class="nav-link active" role="tab" data-toggle="tab">Cartão de crédito</a>
                                             </li>
-                                        
+                                            <li class="nav-item">
+                                                <a href="#parcelasBoleto" class="nav-link" role="tab" data-toggle="tab">Boleto</a>
+                                            </li>
                                         </ul>
-                                        <table class="table">
-                                            <tbody>
-                                                <tr>
-                                                    <th scope="row">1x</th>
-                                                    <td>de R$ 379,99</td>
-                                                    <td>sem juros</td>
-                                                    <td>total R$ 379,99</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">2x</th>
-                                                    <td>de R$ 189,99</td>
-                                                    <td>sem juros</td>
-                                                    <td>total R$ 379,99</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">3x</th>
-                                                    <td>de R$ 126,99</td>
-                                                    <td>sem juros</td>
-                                                    <td>total R$ 379,99</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">4x</th>
-                                                    <td>de R$ 94,99</td>
-                                                    <td>sem juros</td>
-                                                    <td>total R$ 379,99</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">5x</th>
-                                                    <td>de R$ 81,29</td>
-                                                    <td>com juros de 2,29 % a.m.</td>
-                                                    <td>total R$ 406,48</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">6x</th>
-                                                    <td>de R$ 68,50</td>
-                                                    <td>com juros de 2,29 % a.m.</td>
-                                                    <td>total R$ 411,02</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">7x</th>
-                                                    <td>de R$ 59,36</td>
-                                                    <td>com juros de 2,29 % a.m.</td>
-                                                    <td>total R$ 415,58</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">8x</th>
-                                                    <td>de R$ 52,52</td>
-                                                    <td>com juros de 2,29 % a.m.</td>
-                                                    <td>total R$ 420,18</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">9x</th>
-                                                    <td>de R$ 47,20</td>
-                                                    <td>com juros de 2,29 % a.m.</td>
-                                                    <td>total R$ 424,81</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">10x</th>
-                                                    <td>de R$ 42,94</td>
-                                                    <td>com juros de 2,29 % a.m.</td>
-                                                    <td>total R$ 429,47</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">11x</th>
-                                                    <td>de R$ 39,46</td>
-                                                    <td>com juros de 2,29 % a.m.</td>
-                                                    <td>total R$ 434,16</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">12x</th>
-                                                    <td>de R$ 36,57</td>
-                                                    <td>com juros de 2,29 % a.m.</td>
-                                                    <td>total R$ 438,89</td>
-                                                </tr>
-                                    
-                                            </tbody>
 
-                                        </table>
+                                        <div class="tab-content">
+                                            <div role="tabpanel" class="tab-pane active" id="parcelasCartao">
+                                                <table class="table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <th scope="row">1x</th>
+                                                            <td>de R$ 379,99</td>
+                                                            <td>sem juros</td>
+                                                            <td>total R$ 379,99</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">2x</th>
+                                                            <td>de R$ 189,99</td>
+                                                            <td>sem juros</td>
+                                                            <td>total R$ 379,99</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">3x</th>
+                                                            <td>de R$ 126,99</td>
+                                                            <td>sem juros</td>
+                                                            <td>total R$ 379,99</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">4x</th>
+                                                            <td>de R$ 94,99</td>
+                                                            <td>sem juros</td>
+                                                            <td>total R$ 379,99</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">5x</th>
+                                                            <td>de R$ 81,29</td>
+                                                            <td>com juros de 2,29 % a.m.</td>
+                                                            <td>total R$ 406,48</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">6x</th>
+                                                            <td>de R$ 68,50</td>
+                                                            <td>com juros de 2,29 % a.m.</td>
+                                                            <td>total R$ 411,02</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">7x</th>
+                                                            <td>de R$ 59,36</td>
+                                                            <td>com juros de 2,29 % a.m.</td>
+                                                            <td>total R$ 415,58</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">8x</th>
+                                                            <td>de R$ 52,52</td>
+                                                            <td>com juros de 2,29 % a.m.</td>
+                                                            <td>total R$ 420,18</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">9x</th>
+                                                            <td>de R$ 47,20</td>
+                                                            <td>com juros de 2,29 % a.m.</td>
+                                                            <td>total R$ 424,81</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">10x</th>
+                                                            <td>de R$ 42,94</td>
+                                                            <td>com juros de 2,29 % a.m.</td>
+                                                            <td>total R$ 429,47</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">11x</th>
+                                                            <td>de R$ 39,46</td>
+                                                            <td>com juros de 2,29 % a.m.</td>
+                                                            <td>total R$ 434,16</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">12x</th>
+                                                            <td>de R$ 36,57</td>
+                                                            <td>com juros de 2,29 % a.m.</td>
+                                                            <td>total R$ 438,89</td>
+                                                        </tr>
+                                            
+                                                    </tbody>
+        
+                                                </table>
+                                            </div>
+                                            <div role="tabpanel" class="tab-pane" id="parcelasBoleto">
+                                                <div class="row">
+                                                    <p class="text-white"><?php echo $produtoFichaTecnica[1]; ?> no boleto bancário</p>
+                                                </div>
+                                                <div class="row">
+                                                    <p class="text-white">O boleto será gerado após a finalização de sua compra. Imprima e pague no banco ou pague pela internet utilizando o código de barras do boleto.</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
