@@ -1,5 +1,5 @@
-<footer class="d-flex row  mt-3 border-top">
-    <div class="container-fluid justify-content-center mt-2 ">
+<footer class="row  mt-3 ">
+    <div class="container justify-content-center mt-2 ">
         <div class="row">        
             <ul class="col nav flex-row justify-content-center p-0">
                 <li class="nav-item mx-4"><button class="btn btnPadrao border-0 text-white efeitoLink">.sobre nós</button></li>

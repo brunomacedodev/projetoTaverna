@@ -1,25 +1,9 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Controle Com Fio Powera Zelda Breath Of The Wild Para Nintendo Switch na Taverna.com</title>
-  <!-- Estilo Bootstrap -->
-  <link async defer rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- Estilo FontAweomse -->
-  <link async defer rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <!-- Estilo e Favicon -->
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/estilo.css">
-  <link rel="icon" href="assets/img/favicon_taverna_48x48.png" sizes="96x96" type="image/png">
-</head>
+<html>
+<?php $pageTitle = "Taverna";?>
+<?php include_once('utils\head.php');?>
 
 <body>
-<?php require_once ('inc\header.php');?>
+<?php require_once ('utils\header.php');?>
   <main class="container">
 
     <div class="row">
@@ -369,7 +353,7 @@
 
   </main>
 
-<?php require_once("inc/footer.php");?>
+<?php require_once('utils\footer.php');?>
 </body>
 
 </html>

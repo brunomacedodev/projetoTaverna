@@ -20,8 +20,26 @@ body {
 }
 
 /* NAVBAR */
-.navPrincipal {
+.navHeader {
     background-color: #100E11;
+}
+.navHeader .btnUserWishCartSearchDrop {
+    font-size: 20px;
+    color: #ffff;
+}
+
+.navHeader i:hover {
+    color: #8C7F3B;
+    transition: .5s;
+}
+
+.navHeader .form-control {
+    border: 1px solid #ffff;
+}
+
+.navHeader .form-control:focus{
+    border: 1px solid #8C7F3B;
+    transition: .5s;
 }
 
 /* CAROUSEL */
@@ -60,7 +78,6 @@ body {
 a:hover {
     text-decoration: none;
     color: #ffff;
-    padding: 0 8px;
 }
 
 .efeitoLink::after {
@@ -244,4 +261,29 @@ footer p {
 .modal-header i {
     font-size: 20px;
     color: #ffff;
+}
+
+
+/* CLASSE PARA AJUSTAR IMG DA PAGINA GAME */
+.img-games {
+    height: 257px;
+    width: 257px;
+}
+
+/* MODAL QUE DISPARA CAROUSEL PAGINA DE PRODUTO */
+
+.produtoModalTrigger:hover  {
+    opacity: .7;
+    cursor: pointer;
+    transition: .8s;
+}
+
+/* BOTÕES SHARE E LISTA DE DESEJOS SOBRE IMG PRODUTO PAGINA DE PRODUTO */
+
+
+#btnListaShare {
+    opacity: .8;
+    position: absolute;
+    top: 10%;
+    left: 32%;
 }
