@@ -5,19 +5,17 @@
         <?php include_once('utils/header.php');?>
         <?php include_once('utils/produtosPaginaProduto.php');?>
 
-        <main class="container">
+        <main class="container mt-3">
             <div class="row">
                 <div class="col-12 col-md-6 justify-content-center">
                 <img src="<?php echo $imgControleZelda[0]; ?>" class="col-md col-12 rounded produtoModalTrigger" data-toggle="modal" data-target="#modalCarousel" alt="<?php echo $produtoFichaTecnica[0]; ?>">
             
                     <div class="modal fade" id="modalCarousel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
-                        <div class="modal-content">
+                        <div class="modal-content bg-dark">
                             <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel"><?php echo $produtoFichaTecnica[0]; ?></h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
+                                <h5 class="modal-title text-white" id="exampleModalLabel"><?php echo $produtoFichaTecnica[0]; ?></h5>
+                                <button class="close btn-lg border-0" data-dismiss="modal"><i class="fas fa-times"></i></button>    
                             </div>
                             <div class="modal-body">
                                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -36,13 +34,14 @@
                                         <span class="sr-only">Previous</span>
                                     </a>
                                     <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class=
+                                        "carousel-control-next-icon" aria-hidden="true"></span>
                                         <span class="sr-only">Next</span>
                                     </a>
                                 </div>
                             </div>
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                <button class="btn btnPadrao" data-dismiss="modal">Fechar</button>
                             </div>
                         </div>
                         </div>
@@ -71,20 +70,18 @@
 
                         <div class="modal fade" id="modalParcelamento" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog" role="document">
-                                <div class="modal-content">
+                                <div class="modal-content bg-dark">
                                     <div class="modal-header">
-                                        <h5 class="modal-title" id="exampleModalLabel">Formas de parcelamento</h5>
-                                        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                                        <span aria-hidden="true">&times;</span>
-                                        </button>
+                                        <h5 class="modal-title text-white" id="exampleModalLabel">Formas de parcelamento</h5>
+                                        <button class="close btn-lg border-0" data-dismiss="modal"><i class="fas fa-times"></i></button>    
                                     </div>
                                     <div class="modal-body">
                                         <ul class="nav nav-tabs">
-                                            <li class="nav-item">
-                                                <a href="#parcelasCartao" class="nav-link active" role="tab" data-toggle="tab">Cartão de crédito</a>
+                                            <li class="active">
+                                                <a href="#parcelasCartao" class="nav-link active" role="tab" data-toggle="tab">Cartão de crédito <i class="fas fa-credit-card"></i></a>
                                             </li>
                                             <li class="nav-item">
-                                                <a href="#parcelasBoleto" class="nav-link" role="tab" data-toggle="tab">Boleto</a>
+                                                <a href="#parcelasBoleto" class="nav-link" role="tab" data-toggle="tab">Boleto <i class="fas fa-money-check"></i></a>
                                             </li>
                                         </ul>
 
@@ -93,76 +90,76 @@
                                                 <table class="table">
                                                     <tbody>
                                                         <tr>
-                                                            <th scope="row">1x</th>
-                                                            <td>de R$ 379,99</td>
-                                                            <td>sem juros</td>
-                                                            <td>total R$ 379,99</td>
+                                                            <th class="text-white" class="text-white" scope="row">1x</th>
+                                                            <td class="text-white">de R$ 379,99</td>
+                                                            <td class="text-white">sem juros</td>
+                                                            <td class="text-white">total R$ 379,99</td>
                                                         </tr>
                                                         <tr>
-                                                            <th scope="row">2x</th>
-                                                            <td>de R$ 189,99</td>
-                                                            <td>sem juros</td>
-                                                            <td>total R$ 379,99</td>
+                                                            <th class="text-white" scope="row">2x</th>
+                                                            <td class="text-white">de R$ 189,99</td>
+                                                            <td class="text-white">sem juros</td>
+                                                            <td class="text-white">total R$ 379,99</td>
                                                         </tr>
                                                         <tr>
-                                                            <th scope="row">3x</th>
-                                                            <td>de R$ 126,99</td>
-                                                            <td>sem juros</td>
-                                                            <td>total R$ 379,99</td>
+                                                            <th class="text-white" scope="row">3x</th>
+                                                            <td class="text-white">de R$ 126,99</td>
+                                                            <td class="text-white">sem juros</td>
+                                                            <td class="text-white">total R$ 379,99</td>
                                                         </tr>
                                                         <tr>
-                                                            <th scope="row">4x</th>
-                                                            <td>de R$ 94,99</td>
-                                                            <td>sem juros</td>
-                                                            <td>total R$ 379,99</td>
+                                                            <th class="text-white" scope="row">4x</th>
+                                                            <td class="text-white">de R$ 94,99</td>
+                                                            <td class="text-white">sem juros</td>
+                                                            <td class="text-white">total R$ 379,99</td>
                                                         </tr>
                                                         <tr>
-                                                            <th scope="row">5x</th>
-                                                            <td>de R$ 81,29</td>
-                                                            <td>com juros de 2,29 % a.m.</td>
-                                                            <td>total R$ 406,48</td>
+                                                            <th class="text-white" scope="row">5x</th>
+                                                            <td class="text-white">de R$ 81,29</td>
+                                                            <td class="text-white">com juros de 2,29 % a.m.</td>
+                                                            <td class="text-white">total R$ 406,48</td>
                                                         </tr>
                                                         <tr>
-                                                            <th scope="row">6x</th>
-                                                            <td>de R$ 68,50</td>
-                                                            <td>com juros de 2,29 % a.m.</td>
-                                                            <td>total R$ 411,02</td>
+                                                            <th class="text-white" scope="row">6x</th>
+                                                            <td class="text-white">de R$ 68,50</td>
+                                                            <td class="text-white">com juros de 2,29 % a.m.</td>
+                                                            <td class="text-white">total R$ 411,02</td>
                                                         </tr>
                                                         <tr>
-                                                            <th scope="row">7x</th>
-                                                            <td>de R$ 59,36</td>
-                                                            <td>com juros de 2,29 % a.m.</td>
-                                                            <td>total R$ 415,58</td>
+                                                            <th class="text-white" scope="row">7x</th>
+                                                            <td class="text-white">de R$ 59,36</td>
+                                                            <td class="text-white">com juros de 2,29 % a.m.</td>
+                                                            <td class="text-white">total R$ 415,58</td>
                                                         </tr>
                                                         <tr>
-                                                            <th scope="row">8x</th>
-                                                            <td>de R$ 52,52</td>
-                                                            <td>com juros de 2,29 % a.m.</td>
-                                                            <td>total R$ 420,18</td>
+                                                            <th class="text-white" scope="row">8x</th>
+                                                            <td class="text-white">de R$ 52,52</td>
+                                                            <td class="text-white">com juros de 2,29 % a.m.</td>
+                                                            <td class="text-white">total R$ 420,18</td>
                                                         </tr>
                                                         <tr>
-                                                            <th scope="row">9x</th>
-                                                            <td>de R$ 47,20</td>
-                                                            <td>com juros de 2,29 % a.m.</td>
-                                                            <td>total R$ 424,81</td>
+                                                            <th class="text-white" scope="row">9x</th>
+                                                            <td class="text-white">de R$ 47,20</td>
+                                                            <td class="text-white">com juros de 2,29 % a.m.</td>
+                                                            <td class="text-white">total R$ 424,81</td>
                                                         </tr>
                                                         <tr>
-                                                            <th scope="row">10x</th>
-                                                            <td>de R$ 42,94</td>
-                                                            <td>com juros de 2,29 % a.m.</td>
-                                                            <td>total R$ 429,47</td>
+                                                            <th class="text-white" scope="row">10x</th>
+                                                            <td class="text-white">de R$ 42,94</td>
+                                                            <td class="text-white">com juros de 2,29 % a.m.</td>
+                                                            <td class="text-white">total R$ 429,47</td>
                                                         </tr>
                                                         <tr>
-                                                            <th scope="row">11x</th>
-                                                            <td>de R$ 39,46</td>
-                                                            <td>com juros de 2,29 % a.m.</td>
-                                                            <td>total R$ 434,16</td>
+                                                            <th class="text-white" scope="row">11x</th>
+                                                            <td class="text-white">de R$ 39,46</td>
+                                                            <td class="text-white">com juros de 2,29 % a.m.</td>
+                                                            <td class="text-white">total R$ 434,16</td>
                                                         </tr>
                                                         <tr>
-                                                            <th scope="row">12x</th>
-                                                            <td>de R$ 36,57</td>
-                                                            <td>com juros de 2,29 % a.m.</td>
-                                                            <td>total R$ 438,89</td>
+                                                            <th class="text-white" scope="row">12x</th>
+                                                            <td class="text-white">de R$ 36,57</td>
+                                                            <td class="text-white">com juros de 2,29 % a.m.</td>
+                                                            <td class="text-white">total R$ 438,89</td>
                                                         </tr>
                                             
                                                     </tbody>
@@ -170,8 +167,8 @@
                                                 </table>
                                             </div>
                                             <div role="tabpanel" class="tab-pane" id="parcelasBoleto">
-                                                <div class="row">
-                                                    <p class="text-white"><?php echo $produtoFichaTecnica[1]; ?> no boleto bancário</p>
+                                                <div class="row justify-content-center">
+                                                    <p class="text-white">R$ <?php echo $produtoFichaTecnica[1]; ?> no boleto bancário</p>
                                                 </div>
                                                 <div class="row">
                                                     <p class="text-white">O boleto será gerado após a finalização de sua compra. Imprima e pague no banco ou pague pela internet utilizando o código de barras do boleto.</p>
@@ -179,42 +176,13 @@
 
                                             </div>
                                         </div>
-
-
-
                                     </div>
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                                        <button class="btn btnPadrao" data-dismiss="modal">Fechar</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                         <button class="col-12 col-md-6 btn col-6 btn-lg btn-outline-light">Comprar <i class="fas fa-shopping-cart"></i></button>
                     </div>
                     <div class="row justify-content-center border-bottom">
@@ -223,11 +191,8 @@
                             <input class="form-control mr-sm-2" type="search" placeholder="Calcular frete e prazo" aria-label="Search">
                             <button class="col-12 col-md btn btn-lg btn-outline-light my-2 my-sm-0" type="submit">OK <i class="fas fa-truck"></i></button>
                         </form>
-
                     </div>
-
                 </div>
-
             </div>
     
 
