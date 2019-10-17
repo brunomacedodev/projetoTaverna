@@ -23,5 +23,7 @@ $produtoFichaTecnica = [
     "PowerA",
     "USB",
     "50.5g",
-    "Branco"
+    "Branco",
+    "assets\img\loja_exemplo_logo_fundo.jpg",
+    "gameplay_home.php"
 ];

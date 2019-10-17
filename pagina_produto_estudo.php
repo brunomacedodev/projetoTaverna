@@ -8,7 +8,7 @@
         <main class="container mt-3">
             <div class="row">
                 <div class="col-12 col-md-6 justify-content-center">
-                <img src="<?php echo $imgControleZelda[0]; ?>" class="col-md col-12 rounded produtoModalTrigger" data-toggle="modal" data-target="#modalCarousel" alt="<?php echo $produtoFichaTecnica[0]; ?>">
+                <img src="<?php echo $imgControleZelda[0]; ?>" class="col-md col-12 produtoModalTrigger" data-toggle="modal" data-target="#modalCarousel" alt="<?php echo $produtoFichaTecnica[0]; ?>">
             
                     <div class="modal fade" id="modalCarousel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
@@ -57,7 +57,7 @@
                         <p class="text-white p-0">(Cód.<?php echo $produtoFichaTecnica[4]; ?>)</p>
                     </div>
                     <div class="row justify-content-center my-3 border-bottom">
-                        <p class="text-white">Vendido por <img src="assets\img\loja_exemplo_logo_fundo.jpg" class="thumbnail" width="48px"> <?php echo $produtoFichaTecnica[3]; ?></p>
+                        <p class="text-white">Vendido por <img src="<?php echo $produtoFichaTecnica[12]; ?>" class="thumbnail" width="48px"> <a href="<?php echo $produtoFichaTecnica[13]; ?>"><?php echo $produtoFichaTecnica[3]; ?></a></p>
                     </div>
                     <div class="row mt-3 justify-content-center justify-content-md-end">
                         <h2 class="text-white">R$ <?php echo $produtoFichaTecnica[1]; ?></h2>
@@ -194,6 +194,79 @@
                     </div>
                 </div>
             </div>
+
+
+            <div class="accordion mt-5 border rounded" id="infoProduto">
+                <div class="card border-0">
+                    <div class="card-header produtoAccordion" id="headingOne">
+                    <h5 class="mb-0 ">
+                        <button class="btn btnPadrao btn-block border-0 collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Informações do Produto <i class="fas fa-chevron-circle-down"></i>
+                        </button>
+                    </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show " aria-labelledby="headingOne" data-parent="#infoProduto">
+                    <div class="card-body text-white produtoAccordion">
+                        Este controle da PowerA conta com um desempenho ótimo, possui alças de toque suave para maior conforto e 6
+                        tampas analógicas intercambiáveis para preferência pessoal. Conta com um design incrível com animação do
+                        Zelda: Breath of The Wild. Garanta já o seu na nossa loja.
+                    </div>
+                    </div>
+                </div>
+                <div class="card border-0">
+                    <div class="card-header produtoAccordion" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btnPadrao btn-block border-0 collapsed" type="button"
+                        data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Ficha Técnica <i class="fas fa-chevron-circle-down"></i>
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#infoProduto">
+                    <div class="card-body produtoAccordion">
+                        <table class="table mt-4 tableFicha text-white">
+                        <tbody>
+                            <tr>
+                            <th scope="row">Código</th>
+                            <td>86144985</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Modelo</th>
+                            <td>Zelda: Breath of The Wild</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Plataforma</th>
+                            <td>Nintendo Switch</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Conexão</th>
+                            <td>Wired</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Fabricante</th>
+                            <td>PowerA</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Entrada</th>
+                            <td>USB</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Peso</th>
+                            <td>50.5</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Cor</th>
+                            <td>Preto</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </div>
+                    </div>
+                </div>
+            </div>
+
     
 
      
