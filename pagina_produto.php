@@ -1,346 +1,275 @@
 <html>
-<?php $pageTitle = "Taverna";?>
-<?php include_once('utils\head.php');?>
+    <?php $pageTitle = "Taverna";?>
+    <?php include_once('utils\head.php');?>
+    <body>
+        <?php include_once('utils/header.php');?>
+        <?php include_once('utils/produtosPaginaProduto.php');?>
 
-<body>
-<?php require_once ('utils\header.php');?>
-  <main class="container">
-
-    <div class="row">
-      <!-- <div class="col">
-        <img src="img\controle_switch01.jpg" alt="">
-      </div> -->
-      <div class="col-md">
-        <div id="carouselExampleControls" class="carousel slide border rounded" data-ride="carousel">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img class="d-block w-100" src="assets\img\controle_switch01.jpg" alt="Primeiro Slide">
-            </div>
-            <div class="carousel-item">
-              <img class="d-block w-100" src="assets\img\controle_switch02.jpg" alt="Segundo Slide">
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span aria-hidden="true"><i class="fas fa-arrow-alt-circle-left"></i></span>
-            <span class="sr-only">Anterior</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span aria-hidden="true"><i class="fas fa-arrow-alt-circle-right"></i></span>
-            <span class="sr-only">Próximo</span>
-          </a>
-        </div>
-      </div>
-
-      <div class="card col cardProduto">
-        <div class="card-body">
-          <div class="card-title">Controle Com Fio PowerA Zelda Breath Of The Wild Para Nintendo Switch</div>
-          <div class="product-bottom text-white text-left">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star-half-alt"></i>
-            <i class="far fa-star"></i>
-          </div>
-
-          <div class="card-text codigoProduto">(Cód.86144985)</div>
-
-          <div class="text-center">
-            <span class="text-white">vendido por </span> <img src="assets\img\loja_exemplo_logo_fundo.jpg" width="48px"><a
-              href="gameplay_loja.php"> GamePlay</a>
-          </div>
-
-          <div class="card-text text-white">Compre agora esse controle foda pra caralho do Nintendo Switch</div>
-
-          <div class="card-text  text-right precoAntigo">R$:249,99</div>
-          <div class="card-text  text-right text-white descontoPreco">(12% de desconto!)</div>
-          <div class="card-text precoProduto text-right">R$:219,99</div>
-
-          <div class="text-right">
-            <button class="btn btn-dark btnComprar"><i class="fas fa-shopping-cart"></i> Comprar</button>
-          </div>
-
-          <div class="d-flex justify-content-center mt-2">
-            <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#modalParcelas">formas
-              de parcelamento</button>
-          </div>
-
-          <form class="form-inline d-flex justify-content-start mt-2 row">
-            <div class="form-group mx-sm-3 mb-2">
-              <input type="password" class="form-control" id="inputPassword2" placeholder="Preencha seu CEP">
-            </div>
-            <button type="submit" class="btn btn-outline-light mb-2"><i class="fas fa-truck"></i> Calcular
-              Frete</button>
-          </form>
-
-          <!-- MODAL -->
-          <div class="modal fade" id="modalParcelas" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title">Formas de Parcelamento</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><i
-                      class="far fa-times-circle"></i></button>
-                </div>
-                <div class="modal-body">
-                  <i class="fas fa-credit-card"></i> Pagamentos com Cartão de Crédito
-                </div>
-                <table class="table mt-4">
-                  <tbody>
-                    <tr>
-                      <th scope="row">1x</th>
-                      <td>de R$219,99</td>
-                      <td>sem juros</td>
-                      <td>total R$219,99</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">2x</th>
-                      <td>de R$124,99</td>
-                      <td>sem juros</td>
-                      <td>total R$249,99</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">3x</th>
-                      <td>de R$83,33</td>
-                      <td>sem juros</td>
-                      <td>total R$249,99</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">4x</th>
-                      <td>de R$83,33</td>
-                      <td>com juros de 2,29% a.m.</td>
-                      <td>total R$264,46</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">5x</th>
-                      <td>de R$219,99</td>
-                      <td>com juros de 2,29% a.m.</td>
-                      <td>total R$267,42</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">6x</th>
-                      <td>de R$219,99</td>
-                      <td>com juros de 2,29% a.m.</td>
-                      <td>total R$270,40</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">7x</th>
-                      <td>de R$219,99</td>
-                      <td>com juros de 2,29% a.m.</td>
-                      <td>total R$273,40</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">8x</th>
-                      <td>de R$219,99</td>
-                      <td>com juros de 2,29% a.m.</td>
-                      <td>total R$276,43</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">9x</th>
-                      <td>de R$219,99</td>
-                      <td>com juros de 2,29% a.m.</td>
-                      <td>total R$279,47</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">10x</th>
-                      <td>de R$219,99</td>
-                      <td>com juros de 2,29% a.m.</td>
-                      <td>total R$282,54</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">11x</th>
-                      <td>de R$219,99</td>
-                      <td>com juros de 1,69% a.m.</td>
-                      <td>total R$276,04</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">12x</th>
-                      <td>de R$219,99</td>
-                      <td>com juros de 2,29% a.m.</td>
-                      <td>total R$288,74</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-            <!-- MODAL -->
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- ACORDEÃO/DESCRIÇÃO DO PRODUTO -->
-
-    <div class="accordion mt-5" id="infoProduto">
-      <div class="card">
-        <div class="card-header" id="headingOne">
-          <h5 class="mb-0">
-            <button class="btn btn-link btn-outline-light btn-block btnInfoProduto" type="button" data-toggle="collapse"
-              data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              Informações do Produto
-            </button>
-          </h5>
-        </div>
-
-        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#infoProduto">
-          <div class="card-body text-white">
-            Este controle da PowerA conta com um desempenho ótimo, possui alças de toque suave para maior conforto e 6
-            tampas analógicas intercambiáveis para preferência pessoal. Conta com um design incrível com animação do
-            Zelda: Breath of The Wild. Garanta já o seu na nossa loja.
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-header" id="headingTwo">
-          <h5 class="mb-0">
-            <button class="btn btn-link btn-outline-light btn-block btnInfoProduto collapsed" type="button"
-              data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              Ficha Técnica
-            </button>
-          </h5>
-        </div>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#infoProduto">
-          <div class="card-body">
-            <table class="table mt-4 tableFicha">
-              <tbody>
-                <tr>
-                  <th scope="row">Código</th>
-                  <td>86144985</td>
-                </tr>
-                <tr>
-                  <th scope="row">Modelo</th>
-                  <td>Zelda: Breath of The Wild</td>
-                </tr>
-                <tr>
-                  <th scope="row">Plataforma</th>
-                  <td>Nintendo Switch</td>
-                </tr>
-                <tr>
-                  <th scope="row">Conexão</th>
-                  <td>Wired</td>
-                </tr>
-                <tr>
-                  <th scope="row">Fabricante</th>
-                  <td>PowerA</td>
-                </tr>
-                <tr>
-                  <th scope="row">Entrada</th>
-                  <td>USB</td>
-                </tr>
-                <tr>
-                  <th scope="row">Peso</th>
-                  <td>50.5</td>
-                </tr>
-                <tr>
-                  <th scope="row">Cor</th>
-                  <td>Preto</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- CAROUSEL/OUTROS PRODUTOS -->
-
-    <h2 class="text-white text-left my-5">veja estes produtos também!</h2>
-
-    <div class="container-fluid">
-
-      <div id="carouselOutrosProdutos" class="carousel slide" data-ride="carousel">
-
-        <div class="carousel-inner row w-100 mx-auto">
-
-          <div class="carousel-item active">
-            <div class="container">
-              <div class="row">
-
-                <div class="col-sm-12 col-lg-4">
-                  <div class="card cardCarousel border border-light" style="width: 200px;">
-                    <a href=""><img class="card-img-top" src="assets\img\mouse_pad02.jpg" alt="Mouse Pad Gamer"></a>
-                    <div class="card-body">
-                      <div href="" class="card-text text-center text-white">Mouse Pad Gamer Hyperx Tamanho M 30cm X 36cm
-                      </div>
-                      <div class="card-text text-center text-white mt-2 font-weight-bold">23 ofertas a partir de</div>
-                      <div class="card-text precoProduto text-center">R$:57,99</div>
+        <main class="container mt-3">
+            <div class="row">
+                <div class="col-12 col-md-6 justify-content-center">
+                <img src="<?php echo $imgControleZelda[0]; ?>" class="col-md col-12 produtoModalTrigger" data-toggle="modal" data-target="#modalCarousel" alt="<?php echo $produtoFichaTecnica[0]; ?>">
+            
+                    <div class="modal fade" id="modalCarousel" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                        <div class="modal-content bg-dark">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-white" id="exampleModalLabel"><?php echo $produtoFichaTecnica[0]; ?></h5>
+                                <button class="close btn-lg border-0" data-dismiss="modal"><i class="fas fa-times"></i></button>    
+                            </div>
+                            <div class="modal-body">
+                                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="<?php echo $imgControleZelda[0]; ?>" class="d-block w-100" alt="...">
+                                        </div>
+                                        <?php for ($i=1 ; $i < count($imgControleZelda); $i++) { ?>
+                                            <div class="carousel-item">
+                                                <img src="<?php echo $imgControleZelda[$i]; ?>" class="d-block w-100" alt="...">
+                                            </div>
+                                        <?php } ?>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                        <span class=
+                                        "carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btnPadrao" data-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                        </div>
                     </div>
-                  </div>
+                    
                 </div>
 
-                <div class="col-sm-12 col-lg-4">
-                  <div class="card cardCarousel border border-light" style="width: 200px;">
-                    <a href=""><img class="card-img-top" src="assets\img\monitor_gamer.jpg"
-                        alt="Monitor Gamer Led Ultrawide"></a>
-                    <div class="card-body">
-                      <div href="" class="card-text text-center text-white">Monitor Gamer Led Ultrawide</div>
-                      <div class="card-text text-center text-white mt-2 font-weight-bold">28 ofertas a partir de</div>
-                      <div class="card-text precoProduto text-center">R$:692,90</div>
+                <div class="col-12 col-md">
+                    <div class="row text-center border-bottom">
+                        <h2 class="text-white"><?php echo $produtoFichaTecnica[0]; ?></h2>
                     </div>
-                  </div>
-                </div>
-
-                <div class="col-sm-12 col-lg-4">
-                  <div class="card cardCarousel border border-light" style="width: 200px;">
-                    <a href=""><img class="card-img-top" src="assets\img\fonte_pc.jpg" alt="Fonte ATX 1050W Gamemax"></a>
-                    <div class="card-body">
-                      <div href="" class="card-text text-center text-white">Fonte ATX 1050W Gamemax GM1050 Semi Modular
-                      </div>
-                      <div class="card-text text-center text-white mt-2 font-weight-bold">20 ofertas a partir de</div>
-                      <div class="card-text precoProduto text-center">R$:527,66</div>
+                    <div class="row my-3 border-bottom justify-content-center justify-content-md-start">
+                        <p class="text-white p-0">(Cód.<?php echo $produtoFichaTecnica[4]; ?>)</p>
                     </div>
-                  </div>
-                </div>
+                    <div class="row justify-content-center my-3 border-bottom">
+                        <p class="text-white">Vendido por <img src="<?php echo $produtoFichaTecnica[12]; ?>" class="thumbnail" width="48px"> <a href="<?php echo $produtoFichaTecnica[13]; ?>"><?php echo $produtoFichaTecnica[3]; ?></a></p>
+                    </div>
+                    <div class="row mt-3 justify-content-center justify-content-md-end">
+                        <h2 class="text-white">R$ <?php echo $produtoFichaTecnica[1]; ?></h2>
+                    </div>
+                    <div class="row mb-3 border-bottom justify-content-center justify-content-md-end">
+                        <p class="text-white"><?php echo $produtoFichaTecnica[2]; ?></p>
+                    </div>
+                    <div class="row text-center my-3">
+                        <p class="col-12 col-md-6 text-white btn btnPadrao border-0 efeitoLink" data-toggle="modal" data-target="#modalParcelamento">.formas de parcelamento</p>
 
-              </div>
+                        <div class="modal fade" id="modalParcelamento" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content bg-dark">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title text-white" id="exampleModalLabel">Formas de parcelamento</h5>
+                                        <button class="close btn-lg border-0" data-dismiss="modal"><i class="fas fa-times"></i></button>    
+                                    </div>
+                                    <div class="modal-body">
+                                        <ul class="nav nav-tabs">
+                                            <li class="active">
+                                                <a href="#parcelasCartao" class="nav-link active" role="tab" data-toggle="tab">Cartão de crédito <i class="fas fa-credit-card"></i></a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#parcelasBoleto" class="nav-link" role="tab" data-toggle="tab">Boleto <i class="fas fa-money-check"></i></a>
+                                            </li>
+                                        </ul>
+
+                                        <div class="tab-content">
+                                            <div role="tabpanel" class="tab-pane active" id="parcelasCartao">
+                                                <table class="table">
+                                                    <tbody>
+                                                        <tr>
+                                                            <th class="text-white" class="text-white" scope="row">1x</th>
+                                                            <td class="text-white">de R$ 379,99</td>
+                                                            <td class="text-white">sem juros</td>
+                                                            <td class="text-white">total R$ 379,99</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="text-white" scope="row">2x</th>
+                                                            <td class="text-white">de R$ 189,99</td>
+                                                            <td class="text-white">sem juros</td>
+                                                            <td class="text-white">total R$ 379,99</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="text-white" scope="row">3x</th>
+                                                            <td class="text-white">de R$ 126,99</td>
+                                                            <td class="text-white">sem juros</td>
+                                                            <td class="text-white">total R$ 379,99</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="text-white" scope="row">4x</th>
+                                                            <td class="text-white">de R$ 94,99</td>
+                                                            <td class="text-white">sem juros</td>
+                                                            <td class="text-white">total R$ 379,99</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="text-white" scope="row">5x</th>
+                                                            <td class="text-white">de R$ 81,29</td>
+                                                            <td class="text-white">com juros de 2,29 % a.m.</td>
+                                                            <td class="text-white">total R$ 406,48</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="text-white" scope="row">6x</th>
+                                                            <td class="text-white">de R$ 68,50</td>
+                                                            <td class="text-white">com juros de 2,29 % a.m.</td>
+                                                            <td class="text-white">total R$ 411,02</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="text-white" scope="row">7x</th>
+                                                            <td class="text-white">de R$ 59,36</td>
+                                                            <td class="text-white">com juros de 2,29 % a.m.</td>
+                                                            <td class="text-white">total R$ 415,58</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="text-white" scope="row">8x</th>
+                                                            <td class="text-white">de R$ 52,52</td>
+                                                            <td class="text-white">com juros de 2,29 % a.m.</td>
+                                                            <td class="text-white">total R$ 420,18</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="text-white" scope="row">9x</th>
+                                                            <td class="text-white">de R$ 47,20</td>
+                                                            <td class="text-white">com juros de 2,29 % a.m.</td>
+                                                            <td class="text-white">total R$ 424,81</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="text-white" scope="row">10x</th>
+                                                            <td class="text-white">de R$ 42,94</td>
+                                                            <td class="text-white">com juros de 2,29 % a.m.</td>
+                                                            <td class="text-white">total R$ 429,47</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="text-white" scope="row">11x</th>
+                                                            <td class="text-white">de R$ 39,46</td>
+                                                            <td class="text-white">com juros de 2,29 % a.m.</td>
+                                                            <td class="text-white">total R$ 434,16</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th class="text-white" scope="row">12x</th>
+                                                            <td class="text-white">de R$ 36,57</td>
+                                                            <td class="text-white">com juros de 2,29 % a.m.</td>
+                                                            <td class="text-white">total R$ 438,89</td>
+                                                        </tr>
+                                            
+                                                    </tbody>
+        
+                                                </table>
+                                            </div>
+                                            <div role="tabpanel" class="tab-pane" id="parcelasBoleto">
+                                                <div class="row justify-content-center">
+                                                    <p class="text-white">R$ <?php echo $produtoFichaTecnica[1]; ?> no boleto bancário</p>
+                                                </div>
+                                                <div class="row">
+                                                    <p class="text-white">O boleto será gerado após a finalização de sua compra. Imprima e pague no banco ou pague pela internet utilizando o código de barras do boleto.</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button class="btn btnPadrao" data-dismiss="modal">Fechar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="col-12 col-md-6 btn col-6 btn-lg btn-outline-light">Comprar <i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                    <div class="row justify-content-center border-bottom">
+
+                        <form class="form-inline my-3">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Calcular frete e prazo" aria-label="Search">
+                            <button class="col-12 col-md btn btn-lg btn-outline-light my-2 my-sm-0" type="submit">OK <i class="fas fa-truck"></i></button>
+                        </form>
+                    </div>
+                </div>
             </div>
-          </div>
 
-          <div class="carousel-item">
-            <div class="container">
-              <div class="row">
 
-                <div class="col-sm-12 col-lg-4">
-                  <div class="card cardCarousel border border-light" style="width: 200px;">
-                    <a href=""><img class="card-img-top" src="assets\img\volante_switch.jpg"
-                        alt="Volante Wheel Mario Kart"></a>
-                    <div class="card-body">
-                      <div href="" class="card-text text-center text-white">Volante Wheel Mario Kart 8 Nintendo Switch -
-                        Par</div>
-                      <div class="card-text text-center text-white mt-2 font-weight-bold">3 ofertas a partir de</div>
-                      <div class="card-text precoProduto text-center">R$:32,00</div>
+            <div class="accordion mt-5 border rounded" id="infoProduto">
+                <div class="card border-0">
+                    <div class="card-header produtoAccordion" id="headingOne">
+                    <h5 class="mb-0 ">
+                        <button class="btn btnPadrao btn-block border-0 collapsed" type="button" data-toggle="collapse"
+                        data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Informações do Produto <i class="fas fa-chevron-circle-down"></i>
+                        </button>
+                    </h5>
                     </div>
-                  </div>
-                </div>
 
-                <div class="col-sm-12 col-lg-4">
-                  <div class="card cardCarousel border border-light" style="width: 200px;">
-                    <a href=""><img class="card-img-top" src="assets\img\cadeira_gamer.jpg" alt="Cadeira Gamer"></a>
-                    <div class="card-body">
-                      <div href="" class="card-text text-center text-white">Cadeira Gamer Profissional</div>
-                      <div class="card-text text-center text-white mt-2 font-weight-bold">23 ofertas a partir de</div>
-                      <div class="card-text precoProduto text-center">R$:783,40</div>
+                    <div id="collapseOne" class="collapse show " aria-labelledby="headingOne" data-parent="#infoProduto">
+                    <div class="card-body text-white produtoAccordion">
+                        Este controle da PowerA conta com um desempenho ótimo, possui alças de toque suave para maior conforto e 6
+                        tampas analógicas intercambiáveis para preferência pessoal. Conta com um design incrível com animação do
+                        Zelda: Breath of The Wild. Garanta já o seu na nossa loja.
                     </div>
-                  </div>
+                    </div>
                 </div>
-
-              </div>
+                <div class="card border-0">
+                    <div class="card-header produtoAccordion" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btnPadrao btn-block border-0 collapsed" type="button"
+                        data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Ficha Técnica <i class="fas fa-chevron-circle-down"></i>
+                        </button>
+                    </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#infoProduto">
+                    <div class="card-body produtoAccordion">
+                        <table class="table mt-4 tableFicha text-white">
+                        <tbody>
+                            <tr>
+                            <th scope="row">Código</th>
+                            <td>86144985</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Modelo</th>
+                            <td>Zelda: Breath of The Wild</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Plataforma</th>
+                            <td>Nintendo Switch</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Conexão</th>
+                            <td>Wired</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Fabricante</th>
+                            <td>PowerA</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Entrada</th>
+                            <td>USB</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Peso</th>
+                            <td>50.5</td>
+                            </tr>
+                            <tr>
+                            <th scope="row">Cor</th>
+                            <td>Preto</td>
+                            </tr>
+                        </tbody>
+                        </table>
+                    </div>
+                    </div>
+                </div>
             </div>
-          </div>
 
+    
 
-        </div>
-        <a class="carousel-control-prev" href="#carouselOutrosProdutos" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselOutrosProdutos" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Próximo</span>
-        </a>
-      </div>
-
-    </div>
+     
 
 
 
@@ -351,9 +280,14 @@
 
 
 
-  </main>
 
-<?php require_once('utils\footer.php');?>
-</body>
+        </main>
 
+
+
+
+
+
+    </body>
+    <?php include_once('utils/footer.php');?>
 </html>
